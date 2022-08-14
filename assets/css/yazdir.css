@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../font/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurricane';
+    src: url('../font/Hurricane/Hurricane-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Mono';
+    src: url('../font/Red_Hat_Mono/RedHatMono-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Mono Italic';
+    src: url('../font/Red_Hat_Mono/RedHatMono-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('../font/Roboto/Roboto-Black.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Black Italic';
+    src: url('../font/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Robot Bold';
+    src: url('../font/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bold Italic';
+    src: url('../font/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Italic';
+    src: url('../font/Roboto/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../font/Roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Light Italic';
+    src: url('../font/Roboto/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../font/Roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Medium Italic';
+    src: url('../font/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../font/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('../font/Roboto/Roboto-Thin.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Thin Italic';
+    src: url('../font/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+/*Other Fonts*/
+
+@font-face {
+    font-family: 'FYBE11';
+    src: url('../font/Others/FYBE11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE12';
+    src: url('../font/Others/FYBE12.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE21';
+    src: url('../font/Others/FYBE21.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE22';
+    src: url('../font/Others/FYBE22.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE23';
+    src: url('../font/Others/FYBE23.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE24';
+    src: url('../font/Others/FYBE24.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE25';
+    src: url('../font/Others/FYBE25.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE26';
+    src: url('../font/Others/FYBE26.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE27';
+    src: url('../font/Others/FYBE27.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE31';
+    src: url('../font/Others/FYBE31.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYBE32';
+    src: url('../font/Others/FYBE32.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYME11';
+    src: url('../font/Others/FYME11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYME12';
+    src: url('../font/Others/FYME12.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYPR11';
+    src: url('../font/Others/FYPR11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FYPR12';
+    src: url('../font/Others/FYPR12.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MYFONT_1';
+    src: url('../font/Others/MYFONT_1.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'INC';
+    src: url('../font/Others/Inconsolata.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@page {
+    size: auto;
+    margin: 0;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+#recipt {
+    margin-left: 0;
+    width: 56mm;
+}
+
+b {
+    font-family: 'INC';
+}
+
+body {
+    margin: 0px;
+}
+
+hr {
+    margin-left: 0;
+    max-width: 56mm;
+    border-top: 2px dashed black;
+}

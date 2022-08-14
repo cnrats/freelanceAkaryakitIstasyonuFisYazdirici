@@ -1,0 +1,14 @@
+{
+  "name": "fis-yazdirici",
+  "version": "1.0.0",
+  "description": "Benzin istasyonu fis yazdirici.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Caner Ates",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.2.0"
+  }
+}

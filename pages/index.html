@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>Fiş Yazdırıcı</title>
+    <script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../assets/js/summernote-lite.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/summernote-lite.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+</head>
+
+<body>
+    <div id="plakaUyari" class="alert alert-primary d-none" role="alert">
+        Yazdırma işlemi devam ediyor...
+        <div>Güncel plaka: <span id="guncelPlaka"></span></div>
+    </div>
+    <div id="bd" class="container my-1">
+        <div class="row">
+            <div class="col-4">
+                <div id="fis">
+                    <div id="summernote"></div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row g-1">
+                    <div class="col-12">
+                        <label for="inputTarih" class="form-label">Tarih</label>
+                        <input type="text" class="form-control" id="inputTarih">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputSaat" class="form-label">Saat</label>
+                        <input type="text" class="form-control" id="inputSaat">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputFisNo" class="form-label">Fiş No</label>
+                        <input type="text" class="form-control" id="inputFisNo">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputPlaka" class="form-label">Plaka</label>
+                        <input type="text" class="form-control" id="inputPlaka">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputLitre" class="form-label">Litre</label>
+                        <input type="text" class="form-control" id="inputLitre">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputFiyat" class="form-label">Fiyat</label>
+                        <input type="text" class="form-control" id="inputFiyat">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputKdv" class="form-label">Kdv %</label>
+                        <input type="text" class="form-control" id="inputKdv">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputKdvTutar" class="form-label">Kdv Tutar</label>
+                        <input type="text" class="form-control" id="inputKdvTutar">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputTutar" class="form-label">Tutar</label>
+                        <input type="text" class="form-control" id="inputTutar">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputToplam" class="form-label">Toplam</label>
+                        <input type="text" class="form-control" id="inputToplam">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputNakit" class="form-label">Nakit</label>
+                        <input type="text" class="form-control" id="inputNakit">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputYakit" class="form-label">Yakıt</label>
+                        <input type="text" class="form-control" id="inputYakit">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputPompaNo" class="form-label">Pompa No</label>
+                        <input type="text" class="form-control" id="inputPompaNo">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputIstasyon" class="form-label">İstasyon</label>
+                        <input type="text" class="form-control" id="inputIstasyon">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputEkuNo" class="form-label">Ekü No</label>
+                        <input type="text" class="form-control" id="inputEkuNo">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputZNo" class="form-label">Z No</label>
+                        <input type="text" class="form-control" id="inputZNo">
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row g-1">
+                    <div class="col-12">
+                        <label class="form-label" for="inputKaydedilenler">Kaydedilenler</label>
+                        <select class="form-control" id="inputKaydedilenler">
+
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid gap-2">
+                            <button id="btnGetir" class="btn btn-primary">Getir</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="inputDosyaAdi">Dosya Adı</label>
+                        <input class="form-control" id="inputDosyaAdi" type="text">
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid gap-2">
+                            <button id="btnKaydet" class="btn btn-primary">Kaydet</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="inputPlakalar">Plaka Dosyası</label>
+                        <select class="form-control" id="inputPlakalar">
+
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid gap-2">
+                            <button id="btnPlaka" class="btn btn-secondary">Plakaları Oku</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="inputYazici">Yazıcı</label>
+                        <select class="form-control" id="inputYazici">
+
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid gap-2">
+                            <button id="btnHazirla" class="btn btn-warning">Hazırla</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid gap-2">
+                            <button id="btnYazdir" class="btn btn-success">Yazdir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../renderers/indexRenderer.js"></script>
+</body>
+
+</html>
